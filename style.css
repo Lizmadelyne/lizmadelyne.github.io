@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,600&display=swap');
+
+:root{
+    --padding-container : 100px 0;
+    --color-title:#ffff;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+
+.container {
+    width:90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+    color: #fff;
+
+}
+
+.nav{
+    --padding-container:0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+}
+
+.nav_link{
+    margin-left: left;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+    color: #ffff;
+}
+.nav-title{
+    font-weight: 300;
+ }
+ .nav_link{
+     margin-left: auto;
+     padding: 0;
+     display: grid;
+     grid-auto-flow: column;
+     grid-auto-columns: max-content;
+     gap: 2em;
+ }
+ .nav_items{
+    list-style: none;
+
+}
+
+.nav_links{
+    color: #fff;
+    text-decoration: none;
+ 
+ }
+ .nav_menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+ }
+ 
+ .hero_paragraph{
+    display: flex;
+
+ }
+ .hero_container{
+    max-width: 800px;
+    --padding-container: 0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: left;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: left;
+ }
+ .about{
+    text-align: center;
+}
+
+.subtitle{
+color: var(--color-title);
+font-size: 2rem;
+margin-bottom: 25px;
+
+}
+
+.about__main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+ .hero_title{
+    font-size: 3rem;
+
+}
+.hero_paragraph{
+    margin-bottom: 20px;
+}
+
+.about_icons{
+    display: inline-block;
+}
+
+.footer__container{
+    background-color:#918E8D;
+    opacity: 50%;
+     margin-top: 10%;
+} 
+
+.footer__item h3,p{
+    display: inline-block;
+}
+.about__paragraph{
+    width: 75%;
+}
+.footer__icons{
+    width: 20%;
+}
